@@ -89,9 +89,9 @@ main > section {
 main > section:nth-child(3) {
   background-color: #d1bead;
   font-size: 2rem;
-  display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  height: 300px;
 }
 
 main > section:nth-child(3) > p {
@@ -99,10 +99,6 @@ main > section:nth-child(3) > p {
   padding-bottom: 200px;
 }
 
-body > main > section:nth-child(3) {
-  height: 300px;
-  flex-direction: column;
-}
 main > section > ul {
   margin: 0;
   padding: 0;
@@ -114,10 +110,17 @@ main > section > ol {
   text-align: right;
 }
 
+main > section:nth-child(3) > form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
 main > section:nth-child(3) > form input {
   background: transparent;
   border: none;
   border-bottom: 1px solid purple;
+  margin-bottom: 15px;
 }
 
 main > section:nth-child(3) > form label {
@@ -131,4 +134,8 @@ button {
   color: white;
   padding: 10px;
   cursor: pointer;
+}
+
+form > label {
+  align-items: flex-end;
 }
