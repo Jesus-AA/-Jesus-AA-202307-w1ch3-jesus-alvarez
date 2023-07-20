@@ -121,6 +121,7 @@ main > section:nth-child(3) > form input {
   border: none;
   border-bottom: 1px solid purple;
   margin-bottom: 15px;
+  width: 1000px;
 }
 
 main > section:nth-child(3) > form label {
@@ -134,6 +135,7 @@ button {
   color: white;
   padding: 10px;
   cursor: pointer;
+  width: 200px;
 }
 
 form > label {
